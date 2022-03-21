@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8" ?>
 <!-- Copyright 2020 OpenSynergy Indonesia
      Copyright 2020 PT. Simetri Sinergi Indonesia
      License AGPL-3.0 or later (http://www.gnu.org/licenses/agpl-3.0) -->
@@ -6,14 +6,21 @@
     <data noupdate="1">
 
         <record id="djbc_plb_lap_mutasi_barang_operating_units" model="ir.rule">
-            <field name="model_id" ref="l10n_id_djbc_plb_lap_mutasi_barang.model_l10n_id_djbc_plb_lap_mutasi_barang"/>
-            <field name="domain_force">['|',('product_id.operating_unit_ids','=',False),('product_id.operating_unit_ids','in',[g.id for g in user.operating_unit_ids])]</field>
-            <field name="name">operating units - Laporan Mutasi Barang Untuk Pusat Logistik Berikat</field>
-            <field name="global" eval="True"/>
-            <field eval="0" name="perm_unlink"/>
-            <field eval="0" name="perm_write"/>
-            <field eval="1" name="perm_read"/>
-            <field eval="0" name="perm_create"/>
+            <field
+                name="model_id"
+                ref="l10n_id_djbc_plb_lap_mutasi_barang.model_l10n_id_djbc_plb_lap_mutasi_barang"
+            />
+            <field
+                name="domain_force"
+            >['|',('product_id.operating_unit_ids','=',False),('product_id.operating_unit_ids','in',[g.id for g in user.operating_unit_ids])]</field>
+            <field
+                name="name"
+            >operating units - Laporan Mutasi Barang Untuk Pusat Logistik Berikat</field>
+            <field name="global" eval="True" />
+            <field eval="0" name="perm_unlink" />
+            <field eval="0" name="perm_write" />
+            <field eval="1" name="perm_read" />
+            <field eval="0" name="perm_create" />
         </record>
 
     </data>

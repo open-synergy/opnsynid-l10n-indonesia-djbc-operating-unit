@@ -5,10 +5,10 @@
 # pylint: disable=locally-disabled, manifest-required-author
 {
     "name": "Indonesia - Lap. Mutasi Barang for DJBC's "
-            "Pusat Logistik Berikat Operating Unit",
+    "Pusat Logistik Berikat Operating Unit",
     "version": "8.0.1.0.0",
     "category": "localization",
-    "website": "https://opensynergy-indonesia.com",
+    "website": "https://simetri-sinergi.id",
     "author": "OpenSynergy Indonesia",
     "license": "AGPL-3",
     "installable": True,
